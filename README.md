@@ -1,9 +1,9 @@
 # NathanEvans
 Library that computes statistics about a text file.
 
-Download the files known as File from github. Open a new project and import the jar file from the downloaded code known as "File.jar". In Intellij, this is done by clicking File (top left), Project Structure, Libraries, click "New project library" (+ symbol), and then select java out out the options. Then go to the downloaded file (known as "File"), out, artifacts, and the click the folder file.jar (i.e. the first one). 
+Download the files known as File from github. Open a new project and import the jar file from the downloaded code known as "file.jar". In Intellij, this is done by clicking File (top left), Project Structure, Libraries, click "New project library" (+ symbol), and then select java out out the options. Then go to the downloaded file (known as "File"), out, artifacts, and the click the folder file.jar (i.e. the first one). 
 
-The project will now have access to the library. In the src create a new java class and import the library by typing "import NathanEvans.FileReader;" above the class.  
+The project will now have access to the library. In the src code create a new java class and import the library by typing "import NathanEvans.FileReader;" above the class.  
 
 To compute the statistics relating to the text file, run the following commands in the main method (where "filename" relates to name/pathway of the text file):
 
