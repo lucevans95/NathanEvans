@@ -1,12 +1,16 @@
 # NathanEvans
-Library that computes statistics about a text file
+Library that computes statistics about a text file.
 
-To compute the statistics relating to the text file, run the following command in the main method (where "file" relates to name/pathway of the text file):
+Download the files known as File from github. Open a new project and import the jar file from the downloaded code known as "File.jar". In Intellij, this is done by clicking File (top left), Project Structure, Libraries, click "New project library" (+ symbol), and then select java out out the options. Then go to the downloaded file (known as "File"), out, artifacts, and the click the folder file.jar (i.e. the first one). 
 
-System.out.println(wordCount(file)); prints the whitespace delimited word count 
-System.out.println(numberOfLines(file)); prints the number of lines in the text file 
-System.out.println(averageLettersPerWord(file)); prints the average number of letters per word
-System.out.println(mostCommonLetter(file)); prints the most common letter 
+The project will now have access to the library. In the src create a new java class and import the library by typing "import NathanEvans.FileReader;" above the class.  
+
+To compute the statistics relating to the text file, run the following commands in the main method (where "filename" relates to name/pathway of the text file):
+
+System.out.println(FileReader.wordCount(filename)); prints the whitespace delimited word count 
+System.out.println(FileReader.numberOfLines(filename)); prints the number of lines in the text file 
+System.out.println(FileReader.averageLettersPerWord(filename)); prints the average number of letters per word
+System.out.println(FileReader.mostCommonLetter(filename)); prints the most common letter 
 
 The program has been split into a series of methods. The reason for this is that it ensures the code is more organised and structured, and it is clear what each method does. The following is what the six methods do and an explanation for the design.
 
